@@ -77,7 +77,7 @@ public class ImplOperacionCrud implements OperacionCrud {
      * @return Arreglo de productos (puede contener nulls).
      */
     public Producto[] getProductos() {
-        return productos; // devuelve el arreglo interno (puede contener nulls)
+        return productos; 
     }
 
     /**
@@ -91,3 +91,4 @@ public class ImplOperacionCrud implements OperacionCrud {
         }
     }
 }
+
