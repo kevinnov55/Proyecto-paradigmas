@@ -51,8 +51,6 @@ public class ProductoTecnologico extends Producto {
         this.consumoEnergia = consumoEnergia;
     }
 
-    // Getters y Setters
-
     public String getTipoEnergia() {
         return tipoEnergia;
     }
@@ -88,3 +86,4 @@ public class ProductoTecnologico extends Producto {
                 ", Consumo Energético=" + consumoEnergia + " W]";
     }
 }
+
