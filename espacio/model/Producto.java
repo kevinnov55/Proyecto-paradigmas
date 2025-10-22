@@ -49,9 +49,7 @@ public class Producto implements Serializable {
         this.proveedor = proveedor;
         this.estado = estado;
     }
-
-    // Getters y Setters
-
+    
     public int getId() {
         return id;
     }
@@ -113,3 +111,4 @@ public class Producto implements Serializable {
                 ", Estado=" + estado + "]";
     }
 }
+
